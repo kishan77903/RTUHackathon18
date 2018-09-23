@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "619903570301",
+    "firebase_url": "https://skitcollege-b3f17.firebaseio.com",
+    "project_id": "skitcollege-b3f17",
+    "storage_bucket": "skitcollege-b3f17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619903570301:android:6996898c2f59d43b",
+        "android_client_info": {
+          "package_name": "com.example.aayushgarg.skit_college"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619903570301-b5idlq7611omn7bblm9p6fhqasoit9b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aayushgarg.skit_college",
+            "certificate_hash": "a7f2e1501c787e3ade52d7d15626e7f4deff6c1c"
+          }
+        },
+        {
+          "client_id": "619903570301-sll4o4corf2vh94aqinrcnejbtonqkvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB36z0n_IwvSMA50N4i4P--SnJNsScuko8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619903570301-sll4o4corf2vh94aqinrcnejbtonqkvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aayushgarg.skit_college.ButtonInput">
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/radioButton4"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="10dp"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView6"
+        android:layout_marginBottom="-93dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_toRightOf="@id/radioButton5"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="19dp"
+        android:text="LIFT" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/radioButton3"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="136dp"
+        android:text="yes" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/radioButton4"
+        android:layout_alignTop="@+id/radioButton5"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:fontFamily="cursive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:text="Gym" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/radioButton8"
+        android:layout_alignBottom="@+id/radioButton8"
+        android:layout_alignLeft="@+id/radioButton5"
+        android:layout_alignStart="@+id/radioButton5"
+        android:text="yes" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/radioButton4"
+        android:layout_centerVertical="true"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:text="Swimmingc_pool" />
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioButton7"
+        android:layout_alignStart="@+id/radioButton7"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_marginTop="33dp"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/radioButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/radioButton9"
+        android:layout_alignBottom="@+id/radioButton9"
+        android:layout_alignLeft="@+id/radioButton8"
+        android:layout_alignStart="@+id/radioButton8"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="188dp"
+        android:text="Parking" />
+
+
+
+
+
+    <Button
+        android:id="@+id/button_pre"
+        android:background="#EF5350"
+        android:layout_width="match_parent"
+        android:fontFamily="cursive"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Predict" />
+</RelativeLayout>

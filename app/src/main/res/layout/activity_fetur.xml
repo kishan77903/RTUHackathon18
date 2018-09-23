@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.aayushgarg.skit_college.fetur">
+
+
+     <Button
+         android:id="@+id/button101"
+         android:layout_width="110dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+         android:background="@drawable/roundedbutton"
+         android:layout_marginBottom="10dp"
+         android:text="Predict Rent " />
+
+     <Button
+         android:id="@+id/button102"
+         android:layout_width="250dp"
+         android:layout_height="100dp"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentRight="true"
+         android:layout_alignTop="@+id/button101"
+         android:background="@drawable/roundedbutton"
+         android:text="Add Attributes"
+         android:layout_marginBottom="10dp"/>
+
+     <android.support.v7.widget.RecyclerView
+         android:id="@+id/recycler"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_above="@+id/button101"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+          />
+
+
+</RelativeLayout>

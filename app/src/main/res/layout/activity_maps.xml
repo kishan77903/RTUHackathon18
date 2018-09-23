@@ -1,0 +1,43 @@
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/TF_location1234"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+       android:hint="Enter Your House Location"/>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+  android:layout_marginTop="50dp"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    tools:context="com.example.aayushgarg.skit_college.MapsActivity" />
+
+    <Button
+        android:id="@+id/garg789"
+        android:layout_width="match_parent"
+        android:background="#EF5350"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+      android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:layout_alignParentStart="true"
+        android:text="Search" />
+
+</RelativeLayout>
